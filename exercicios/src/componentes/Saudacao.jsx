@@ -1,7 +1,16 @@
 // import React, {Fragment} from 'react'
 import React, { Component } from 'react'
 
-export const BoaTarde  = props => <h1>Boa Tarde {props.nome}!</h1>
-
-export const BoaNoite  = props => <h1>Boa Noite {props.nome}!</h1>
-
+export default class Saudacao extends Component {
+    render(){
+        const { tipo, nome } = this.props
+        return (
+            <div>
+                <h1>{tipo} {nome}!</h1>
+                <hr />
+                <input type="text" placeholder="Tipo..." value={tipo} />
+                <input type="text" placeholder="Nome..." value={nome} />
+            </div>
+        )
+    }
+}
