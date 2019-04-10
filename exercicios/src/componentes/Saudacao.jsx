@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-export default class Saudacao extends Component {
-    render(){
-
-    }
-}
-=======
 // import React, {Fragment} from 'react'
 import React, { Component } from 'react'
 
