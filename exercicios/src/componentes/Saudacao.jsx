@@ -30,4 +30,3 @@ export default class Saudacao extends Component {
         )
     }
 }
->>>>>>> a6f928c3ba6aa4cfc9ef469be656f147e2363a38
